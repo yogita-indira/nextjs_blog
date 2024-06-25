@@ -1,11 +1,9 @@
 .container {
-  margin-bottom: 50px;
-  display: flex;
-  
-  align-items: center;
-  gap: 50px;
-}
 
+}
+.title {
+  margin: 50px 0px;
+}
 .imageContainer {
   flex: 1;
   height: 350px;

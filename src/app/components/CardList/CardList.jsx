@@ -8,7 +8,7 @@ import Card from "../card/Card";
 // Mock data (replace with actual data source)
 const mockData = [
   { _id: 1, title: "Sample Post 1", imageUrl: "/style.png" },
-  { _id: 2, title: "Sample Post 2", imageUrl: "/style.png" },
+  { _id: 2, title: "Sample Post 2", imageUrl: "/food.png" },
   { _id: 3, title: "Sample Post 3", imageUrl: "/style.png" },
   // Add more mock data as needed
 ];
@@ -37,9 +37,7 @@ const CardList = ({ page, cat }) => {
 
   return (
     <div className={styles.container}>
-      <div>
-
-      </div>
+<h1 className={styles.title}>Recent Posts</h1>
     
       <div className={styles.posts}>
         
@@ -50,7 +48,7 @@ const CardList = ({ page, cat }) => {
           <Card />
   
       </div>
-      <Pagination page={page} hasPrev={hasPrev} hasNext={hasNext} />
+      <Pagination  />
     </div>
   );
 };

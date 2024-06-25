@@ -20,10 +20,12 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+ 
   }
   
   .date {
     color: gray;
+    padding: 4px;
   }
   
   .category {

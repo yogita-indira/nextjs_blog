@@ -18,10 +18,10 @@ const Card = ({ key, item }) => {
           <span className={styles.category}>Culture</span>
         </div>
       
-          <h1>Sample Post</h1>
+          <h1 className={styles.title }>How to invest in real estate for beginners and maximize your return</h1>
       
         {/* <p className={styles.desc}>{item.desc.substring(0, 60)}</p> */}
-        <div className={styles.desc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam totam, ab quibusdam natus temporibus odit ea, maiores aliquam doloribus molestiae blanditiis. Nulla necessitatibus veniam esse, voluptatum voluptatem iure atque minima.</div>
+        <div className={styles.desc}>orem ipsum dolor sit amet consectetur, adipisicing elit. Nam totam, ab quibusdam natus temporibus odit ea, maiores aliquam doloribus molestiae blanditiis. Nulla necessitatibus veniam esse, voluptatum voluptatem iure atque minima.</div>
         <Link href="/" className={styles.link}>
           Read More
         </Link>

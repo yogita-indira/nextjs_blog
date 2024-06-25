@@ -23,6 +23,24 @@ const mockData = [
     img: "/travel.png",
     title: "Travel Category",
   },
+  {
+    _id: 3,
+    slug: "coding",
+    img: "/coding.png",
+    title: "Coding Category",
+  },
+  {
+    _id: 3,
+    slug: "culture",
+    img: "/culture.png",
+    title: "Culture Category",
+  },
+  {
+    _id: 3,
+    slug: "p1",
+    img: "/p1.jpeg",
+    title: "Travel Category",
+  }
 ];
 
 const CategoryList = () => {
@@ -32,7 +50,7 @@ const CategoryList = () => {
       <div className={styles.categories}>
         {mockData.map((item) => (
           <Link
-            href={`/blog?cat=${item.slug}`}
+            href="/"
             className={`${styles.category} ${styles[item.slug]}`}
             key={item._id}
           >

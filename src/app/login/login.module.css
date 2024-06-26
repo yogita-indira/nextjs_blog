@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.wrapper{
+    background-color: var(--softBg);
+
+}
+
+.socialButton{
+    
+}

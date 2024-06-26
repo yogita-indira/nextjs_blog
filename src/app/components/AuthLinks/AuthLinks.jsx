@@ -3,7 +3,7 @@ import style from './authLinks.module.css';
 import Link from 'next/link';
 
 const AuthLinks = () => {
-  const status = 'not_authenticated'; // Use appropriate value for the status
+  const status = 'authenticated'; // Use appropriate value for the status
 
   return (
     <>

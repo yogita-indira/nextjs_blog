@@ -24,22 +24,22 @@ const mockData = [
     title: "Travel Category",
   },
   {
-    _id: 3,
+    _id: 4,
     slug: "coding",
     img: "/coding.png",
     title: "Coding Category",
   },
   {
-    _id: 3,
+    _id: 5,
     slug: "culture",
     img: "/culture.png",
     title: "Culture Category",
   },
   {
-    _id: 3,
-    slug: "p1",
-    img: "/p1.jpeg",
-    title: "Travel Category",
+    _id: 6,
+    slug: "culture",
+    img: "/culture.png",
+    title: "Culture Category",
   }
 ];
 

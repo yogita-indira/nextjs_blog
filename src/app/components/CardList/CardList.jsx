@@ -44,6 +44,10 @@ const CardList = ({ page, cat }) => {
        
           <Card />
           <Card />
+          
+
+          <Card />
+          <Card />
           <Card />
           <Card />
   

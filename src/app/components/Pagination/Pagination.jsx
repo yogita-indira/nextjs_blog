@@ -28,3 +28,24 @@ const Pagination = ({ page, hasPrev, hasNext }) => {
 };
 
 export default Pagination;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// https://accounts.google.com
+// https://oauth2.googleapis.com
+// http://localhost:3000 (or your application's domain)
+// http://localhost:3000/api/auth (or your application's API route for NextAuth.js)
